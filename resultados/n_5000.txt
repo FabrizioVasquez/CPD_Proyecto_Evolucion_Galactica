@@ -1,0 +1,5 @@
+//ejemplo
+N = 5000
+SpeedupReal(Gflops)    TiempoTotal
+19.066    1.8709E+01
+
