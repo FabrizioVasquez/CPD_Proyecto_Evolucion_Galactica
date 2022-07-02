@@ -1,0 +1,40 @@
+Rank of the processor 03 on MacBook-Air-2.local 
+Rank of the processor 04 on MacBook-Air-2.local 
+Rank of the processor 07 on MacBook-Air-2.local 
+Rank of the processor 06 on MacBook-Air-2.local 
+Rank of the processor 05 on MacBook-Air-2.local 
+Rank of the processor 01 on MacBook-Air-2.local 
+Rank of the processor 00 on MacBook-Air-2.local 
+Rank of the processor 02 on MacBook-Air-2.local 
+
+Begin the calculation of phi-GPU4 program on 008 processors
+
+N       = 005120 	 eps      = 1.000000E-04 
+t_beg   = 0.000000E+00 	 t_end    = 1.000000E+00 
+dt_disk = 1.000000E+00 	 dt_contr = 1.250000E-01 
+eta     = 1.500000E-01 	 eta_BH   = 1.500000E-01 
+
+Initialized, 8.519240 Gflops
+0.0000E+00   0.000E+00 0.000E+00   -5.054052E-01  2.501556E-01 -2.552496E-01 -0.000000E+00   8.240000E-02 
+1.2500E-01   1.030E+03 1.450E+05   -5.059014E-01  2.506522E-01 -2.552491E-01 -1.799885E-06   2.694163E+00 
+2.5000E-01   2.431E+03 2.861E+05   -5.065588E-01  2.513097E-01 -2.552491E-01 -1.553918E-08   5.640358E+00 
+3.7500E-01   3.698E+03 4.327E+05   -5.070878E-01  2.518387E-01 -2.552491E-01 -1.705889E-08   7.833914E+00 
+5.0000E-01   4.813E+03 5.755E+05   -5.076919E-01  2.524427E-01 -2.552491E-01 -1.079771E-08   1.037871E+01 
+6.2500E-01   6.182E+03 7.230E+05   -5.081490E-01  2.528999E-01 -2.552491E-01  1.340669E-09   1.262045E+01 
+7.5000E-01   7.439E+03 8.702E+05   -5.087999E-01  2.535508E-01 -2.552491E-01 -2.900128E-09   1.490311E+01 
+8.7500E-01   8.414E+03 1.014E+06   -5.092817E-01  2.540325E-01 -2.552491E-01 -1.067314E-08   1.704419E+01 
+1.0000E+00   9.904E+03 1.161E+06   -5.098696E-01  2.546204E-01 -2.552491E-01 -1.196397E-09   1.972350E+01 
+
+Timesteps = 9905   Total sum of integrated part. = 1161372   n_act average = 117
+
+Real Speed = 14.084 GFlops 
+        sec_tot     usec/step   ratio
+scan :  8.3394E-02  8.4194E+00  3.2928E-03
+pred :  1.3846E-01  1.3979E+01  5.4671E-03
+jsend:  1.1930E-03  1.2044E-01  4.7106E-05
+isend:  0.0000E+00  0.0000E+00  0.0000E+00
+force:  1.1916E+01  1.2031E+03  4.7052E-01
+recv :  0.0000E+00  0.0000E+00  0.0000E+00
+comm :  1.2851E+01  1.2974E+03  5.0742E-01
+corr :  3.3545E-01  3.3866E+01  1.3245E-02
+tot  :  2.5326E+01  2.5569E+03  1.0000E+00
