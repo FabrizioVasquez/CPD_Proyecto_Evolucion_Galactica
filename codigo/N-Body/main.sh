@@ -1,12 +1,13 @@
 #!/bin/bash
 #SBATCH --job-name=nbody
-#SBATCH -output=nbody.out
+#SBATCH --output=nbody.out
 
 
 module load gcc/10.1.0
 module load mpich/4.0
 
 make cpu-4th
+g++ gen-plum.c -o gen-plum.out
 
 for N in 5 8 10 16 32 64 128
 do
