@@ -1,0 +1,96 @@
+Rank of the processor 00 on khipu 
+Rank of the processor 01 on khipu 
+Rank of the processor 02 on khipu 
+Rank of the processor 03 on khipu 
+Rank of the processor 05 on khipu 
+Rank of the processor 11 on khipu 
+Rank of the processor 12 on khipu 
+Rank of the processor 13 on khipu 
+Rank of the processor 14 on khipu 
+Rank of the processor 15 on khipu 
+Rank of the processor 17 on khipu 
+Rank of the processor 18 on khipu 
+Rank of the processor 19 on khipu 
+Rank of the processor 20 on khipu 
+Rank of the processor 21 on khipu 
+Rank of the processor 23 on khipu 
+Rank of the processor 24 on khipu 
+Rank of the processor 25 on khipu 
+Rank of the processor 26 on khipu 
+Rank of the processor 27 on khipu 
+Rank of the processor 28 on khipu 
+Rank of the processor 30 on khipu 
+Rank of the processor 31 on khipu 
+Rank of the processor 32 on khipu 
+Rank of the processor 33 on khipu 
+Rank of the processor 34 on khipu 
+Rank of the processor 35 on khipu 
+Rank of the processor 36 on khipu 
+Rank of the processor 37 on khipu 
+Rank of the processor 39 on khipu 
+Rank of the processor 40 on khipu 
+Rank of the processor 42 on khipu 
+Rank of the processor 43 on khipu 
+Rank of the processor 44 on khipu 
+Rank of the processor 45 on khipu 
+Rank of the processor 47 on khipu 
+Rank of the processor 48 on khipu 
+Rank of the processor 49 on khipu 
+Rank of the processor 50 on khipu 
+Rank of the processor 51 on khipu 
+Rank of the processor 52 on khipu 
+Rank of the processor 53 on khipu 
+Rank of the processor 54 on khipu 
+Rank of the processor 55 on khipu 
+Rank of the processor 56 on khipu 
+Rank of the processor 57 on khipu 
+Rank of the processor 58 on khipu 
+Rank of the processor 59 on khipu 
+Rank of the processor 60 on khipu 
+Rank of the processor 62 on khipu 
+Rank of the processor 63 on khipu 
+Rank of the processor 06 on khipu 
+Rank of the processor 08 on khipu 
+Rank of the processor 09 on khipu 
+Rank of the processor 16 on khipu 
+Rank of the processor 04 on khipu 
+Rank of the processor 46 on khipu 
+Rank of the processor 10 on khipu 
+Rank of the processor 41 on khipu 
+Rank of the processor 07 on khipu 
+Rank of the processor 22 on khipu 
+Rank of the processor 29 on khipu 
+Rank of the processor 38 on khipu 
+Rank of the processor 61 on khipu 
+
+Begin the calculation of phi-GPU4 program on 064 processors
+
+N       = 065536 	 eps      = 1.000000E-04 
+t_beg   = 0.000000E+00 	 t_end    = 1.000000E+00 
+dt_disk = 1.000000E+00 	 dt_contr = 1.250000E-01 
+eta     = 1.500000E-01 	 eta_BH   = 1.500000E-01 
+
+Initialized, 153.833595 Gflops
+0.0000E+00   0.000E+00 0.000E+00   -4.966682E-01  2.485637E-01 -2.481044E-01 -0.000000E+00   1.688358E+00 
+1.2500E-01   5.899E+03 2.970E+06   -4.964831E-01  2.483762E-01 -2.481069E-01  9.878770E-06   7.626022E+01 
+2.5000E-01   1.165E+04 5.918E+06   -4.963434E-01  2.482365E-01 -2.481069E-01  3.472797E-10   1.526170E+02 
+3.7500E-01   1.722E+04 8.871E+06   -4.962719E-01  2.481650E-01 -2.481069E-01  4.359530E-09   2.297050E+02 
+5.0000E-01   2.297E+04 1.184E+07   -4.963194E-01  2.482125E-01 -2.481069E-01  6.328156E-09   3.091042E+02 
+6.2500E-01   2.833E+04 1.482E+07   -4.963622E-01  2.482553E-01 -2.481069E-01 -1.172513E-08   3.917712E+02 
+7.5000E-01   3.455E+04 1.782E+07   -4.963475E-01  2.482407E-01 -2.481069E-01 -2.685359E-09   4.794789E+02 
+8.7500E-01   4.110E+04 2.083E+07   -4.962830E-01  2.481761E-01 -2.481069E-01 -1.445248E-08   5.640874E+02 
+1.0000E+00   4.695E+04 2.379E+07   -4.961800E-01  2.480731E-01 -2.481069E-01 -4.757482E-09   6.381638E+02 
+
+Timesteps = 46950   Total sum of integrated part. = 23794192   n_act average = 507
+
+Real Speed = 145.836 GFlops 
+        sec_tot     usec/step   ratio
+scan :  2.1904E+00  4.6654E+01  3.4153E-03
+pred :  8.9095E+00  1.8977E+02  1.3892E-02
+jsend:  4.8133E-03  1.0252E-01  7.5048E-06
+isend:  0.0000E+00  0.0000E+00  0.0000E+00
+force:  5.3863E+02  1.1473E+04  8.3983E-01
+recv :  0.0000E+00  0.0000E+00  0.0000E+00
+comm :  7.2178E+01  1.5373E+03  1.1254E-01
+corr :  1.9443E+01  4.1413E+02  3.0316E-02
+tot  :  6.4136E+02  1.3661E+04  1.0000E+00
