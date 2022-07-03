@@ -1,0 +1,48 @@
+Rank of the processor 00 on khipu 
+Rank of the processor 01 on khipu 
+Rank of the processor 02 on khipu 
+Rank of the processor 05 on khipu 
+Rank of the processor 08 on khipu 
+Rank of the processor 15 on khipu 
+Rank of the processor 04 on khipu 
+Rank of the processor 07 on khipu 
+Rank of the processor 11 on khipu 
+Rank of the processor 13 on khipu 
+Rank of the processor 14 on khipu 
+Rank of the processor 03 on khipu 
+Rank of the processor 10 on khipu 
+Rank of the processor 12 on khipu 
+Rank of the processor 06 on khipu 
+Rank of the processor 09 on khipu 
+
+Begin the calculation of phi-GPU4 program on 016 processors
+
+N       = 016384 	 eps      = 1.000000E-04 
+t_beg   = 0.000000E+00 	 t_end    = 1.000000E+00 
+dt_disk = 1.000000E+00 	 dt_contr = 1.250000E-01 
+eta     = 1.500000E-01 	 eta_BH   = 1.500000E-01 
+
+Initialized, 72.433009 Gflops
+0.0000E+00   0.000E+00 0.000E+00   -4.993985E-01  2.494814E-01 -2.499171E-01 -0.000000E+00   2.206390E-01 
+1.2500E-01   2.349E+03 5.727E+05   -4.991897E-01  2.492726E-01 -2.499171E-01  7.770959E-08   7.798260E+00 
+2.5000E-01   5.013E+03 1.139E+06   -4.991678E-01  2.492506E-01 -2.499171E-01 -1.882748E-08   1.544852E+01 
+3.7500E-01   7.825E+03 1.722E+06   -4.992774E-01  2.493603E-01 -2.499171E-01 -3.774149E-09   2.333117E+01 
+5.0000E-01   1.031E+04 2.293E+06   -4.995361E-01  2.496189E-01 -2.499171E-01 -1.474004E-08   3.103436E+01 
+6.2500E-01   1.289E+04 2.869E+06   -4.997439E-01  2.498268E-01 -2.499171E-01 -6.527077E-09   3.882381E+01 
+7.5000E-01   1.534E+04 3.440E+06   -4.998723E-01  2.499552E-01 -2.499171E-01 -1.226303E-08   4.655630E+01 
+8.7500E-01   1.790E+04 4.019E+06   -4.999458E-01  2.500287E-01 -2.499171E-01 -1.675000E-08   5.443080E+01 
+1.0000E+00   2.026E+04 4.592E+06   -5.000185E-01  2.501014E-01 -2.499171E-01 -1.624049E-08   6.223700E+01 
+
+Timesteps = 20259   Total sum of integrated part. = 4592479   n_act average = 227
+
+Real Speed = 72.358 GFlops 
+        sec_tot     usec/step   ratio
+scan :  1.9364E-01  9.5582E+00  3.1039E-03
+pred :  3.3821E-01  1.6694E+01  5.4212E-03
+jsend:  7.5550E-04  3.7292E-02  1.2110E-05
+isend:  0.0000E+00  0.0000E+00  0.0000E+00
+force:  5.9800E+01  2.9518E+03  9.5853E-01
+recv :  0.0000E+00  0.0000E+00  0.0000E+00
+comm :  1.4353E+00  7.0849E+01  2.3007E-02
+corr :  6.1913E-01  3.0561E+01  9.9240E-03
+tot  :  6.2387E+01  3.0795E+03  1.0000E+00

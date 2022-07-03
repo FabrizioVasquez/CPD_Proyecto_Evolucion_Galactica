@@ -1,0 +1,40 @@
+Rank of the processor 03 on khipu 
+Rank of the processor 07 on khipu 
+Rank of the processor 00 on khipu 
+Rank of the processor 04 on khipu 
+Rank of the processor 02 on khipu 
+Rank of the processor 06 on khipu 
+Rank of the processor 01 on khipu 
+Rank of the processor 05 on khipu 
+
+Begin the calculation of phi-GPU4 program on 008 processors
+
+N       = 010240 	 eps      = 1.000000E-04 
+t_beg   = 0.000000E+00 	 t_end    = 1.000000E+00 
+dt_disk = 1.000000E+00 	 dt_contr = 1.250000E-01 
+eta     = 1.500000E-01 	 eta_BH   = 1.500000E-01 
+
+Initialized, 36.903742 Gflops
+0.0000E+00   0.000E+00 0.000E+00   -5.011633E-01  2.500548E-01 -2.511085E-01 -0.000000E+00   1.703690E-01 
+1.2500E-01   1.762E+03 3.252E+05   -5.010357E-01  2.499270E-01 -2.511087E-01  8.349832E-07   5.456991E+00 
+2.5000E-01   3.416E+03 6.495E+05   -5.010232E-01  2.499146E-01 -2.511087E-01 -8.216549E-09   1.085993E+01 
+3.7500E-01   5.473E+03 9.808E+05   -5.011677E-01  2.500590E-01 -2.511087E-01 -9.882437E-10   1.638208E+01 
+5.0000E-01   7.269E+03 1.312E+06   -5.015616E-01  2.504529E-01 -2.511087E-01 -1.507718E-08   2.191252E+01 
+6.2500E-01   8.932E+03 1.639E+06   -5.020851E-01  2.509765E-01 -2.511087E-01 -8.256324E-09   2.736160E+01 
+7.5000E-01   1.045E+04 1.964E+06   -5.026080E-01  2.514993E-01 -2.511087E-01 -1.997925E-08   3.277510E+01 
+8.7500E-01   1.235E+04 2.293E+06   -5.031701E-01  2.520614E-01 -2.511087E-01 -1.771177E-09   3.825233E+01 
+1.0000E+00   1.434E+04 2.625E+06   -5.037108E-01  2.526021E-01 -2.511087E-01 -1.171486E-08   4.379978E+01 
+
+Timesteps = 14343   Total sum of integrated part. = 2625500   n_act average = 183
+
+Real Speed = 36.742 GFlops 
+        sec_tot     usec/step   ratio
+scan :  1.0078E-01  7.0267E+00  2.2957E-03
+pred :  1.7728E-01  1.2360E+01  4.0382E-03
+jsend:  5.1277E-04  3.5750E-02  1.1680E-05
+isend:  0.0000E+00  0.0000E+00  0.0000E+00
+force:  4.2740E+01  2.9799E+03  9.7356E-01
+recv :  0.0000E+00  0.0000E+00  0.0000E+00
+comm :  6.7804E-01  4.7273E+01  1.5445E-02
+corr :  2.0391E-01  1.4217E+01  4.6448E-03
+tot  :  4.3901E+01  3.0608E+03  1.0000E+00

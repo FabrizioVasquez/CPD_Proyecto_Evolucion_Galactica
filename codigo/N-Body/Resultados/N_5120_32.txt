@@ -1,0 +1,64 @@
+Rank of the processor 00 on khipu 
+Rank of the processor 04 on khipu 
+Rank of the processor 06 on khipu 
+Rank of the processor 07 on khipu 
+Rank of the processor 08 on khipu 
+Rank of the processor 12 on khipu 
+Rank of the processor 14 on khipu 
+Rank of the processor 15 on khipu 
+Rank of the processor 16 on khipu 
+Rank of the processor 20 on khipu 
+Rank of the processor 22 on khipu 
+Rank of the processor 23 on khipu 
+Rank of the processor 24 on khipu 
+Rank of the processor 25 on khipu 
+Rank of the processor 01 on khipu 
+Rank of the processor 02 on khipu 
+Rank of the processor 03 on khipu 
+Rank of the processor 05 on khipu 
+Rank of the processor 09 on khipu 
+Rank of the processor 10 on khipu 
+Rank of the processor 11 on khipu 
+Rank of the processor 13 on khipu 
+Rank of the processor 17 on khipu 
+Rank of the processor 18 on khipu 
+Rank of the processor 19 on khipu 
+Rank of the processor 21 on khipu 
+Rank of the processor 26 on khipu 
+Rank of the processor 27 on khipu 
+Rank of the processor 28 on khipu 
+Rank of the processor 29 on khipu 
+Rank of the processor 30 on khipu 
+Rank of the processor 31 on khipu 
+
+Begin the calculation of phi-GPU4 program on 032 processors
+
+N       = 005120 	 eps      = 1.000000E-04 
+t_beg   = 0.000000E+00 	 t_end    = 1.000000E+00 
+dt_disk = 1.000000E+00 	 dt_contr = 1.250000E-01 
+eta     = 1.500000E-01 	 eta_BH   = 1.500000E-01 
+
+Initialized, 74.391856 Gflops
+0.0000E+00   0.000E+00 0.000E+00   -5.010757E-01  2.506333E-01 -2.504424E-01 -0.000000E+00   2.004100E-02 
+1.2500E-01   1.193E+03 1.448E+05   -5.005120E-01  2.500696E-01 -2.504424E-01  1.591463E-07   5.772570E-01 
+2.5000E-01   2.239E+03 2.850E+05   -4.998622E-01  2.494198E-01 -2.504424E-01 -6.745292E-10   1.147165E+00 
+3.7500E-01   3.266E+03 4.276E+05   -4.996272E-01  2.491848E-01 -2.504424E-01  1.628619E-09   1.715662E+00 
+5.0000E-01   4.367E+03 5.724E+05   -4.996997E-01  2.492574E-01 -2.504424E-01 -1.111413E-08   2.295554E+00 
+6.2500E-01   5.808E+03 7.138E+05   -4.999008E-01  2.494585E-01 -2.504424E-01 -1.071690E-08   2.735827E+00 
+7.5000E-01   6.985E+03 8.569E+05   -5.002720E-01  2.498296E-01 -2.504424E-01 -3.508558E-09   3.097585E+00 
+8.7500E-01   8.163E+03 9.999E+05   -5.007197E-01  2.502773E-01 -2.504424E-01  1.704658E-09   3.458609E+00 
+1.0000E+00   9.534E+03 1.144E+06   -5.011968E-01  2.507544E-01 -2.504424E-01 -5.759334E-09   3.819570E+00 
+
+Timesteps = 9535   Total sum of integrated part. = 1143749   n_act average = 120
+
+Real Speed = 91.673 GFlops 
+        sec_tot     usec/step   ratio
+scan :  4.9100E-02  5.1495E+00  1.2818E-02
+pred :  4.2213E-02  4.4271E+00  1.1020E-02
+jsend:  3.7752E-04  3.9593E-02  9.8552E-05
+isend:  0.0000E+00  0.0000E+00  0.0000E+00
+force:  2.8609E+00  3.0004E+02  7.4684E-01
+recv :  0.0000E+00  0.0000E+00  0.0000E+00
+comm :  7.6260E-01  7.9979E+01  1.9908E-01
+corr :  1.1546E-01  1.2109E+01  3.0141E-02
+tot  :  3.8306E+00  4.0174E+02  1.0000E+00
