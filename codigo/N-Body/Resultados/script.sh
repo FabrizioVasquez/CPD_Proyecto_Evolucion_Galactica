@@ -1,5 +1,5 @@
 #!/bin/bash
-read -p "Introduce la variable (speedup,fuerza,comunicacion,total): " mi_variable
+read -p "Introduce la variable (gflops,fuerza,comunicacion,total): " mi_variable
 static_columns=('Real Speed = ' 'force: ' 'tot  : ' 'comm : ')
 variables=("speedup" "fuerza" "total" "comunicacion")
 
@@ -10,7 +10,7 @@ do
         declare tmp_variable
         if [[ "$mi_variable" == ${variables[0]} ]];
         then
-            tmp_variable=$(grep ${static_columns[0]} N_$(($N*1024))\_$np.txt -s | awk '{print $4}') # speed
+            tmp_variable=$(grep ${static_columns[0]} N_$(($N*1024))\_$np.txt -s | awk '{print $4}') # gflops
         elif [[ "$mi_variable" == ${variables[1]} ]];
         then 
             tmp_variable=$(grep ${static_columns[1]} N_$(($N*1024))\_$np.txt -s | awk '{print $2}') # fuerza
