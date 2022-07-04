@@ -1,0 +1,49 @@
+% Add an image
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.99\linewidth]{2.png}
+    \caption{PC from 10 to 1C}
+    \label{fig:w2}
+\end{figure}
+
+\begin{figure}[!h]
+  \begin{subfigure}[b]{0.4\textwidth}
+    \includegraphics[scale=0.6]{Images/}
+    \caption{}
+    \label{fig:asd1}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.4\textwidth}
+    \includegraphics[scale=0.6]{Images/}
+    \caption{}
+    \label{fig:asd2}
+  \end{subfigure}
+  \caption{\centering{hola}}
+\end{figure}
+
+% https://www.overleaf.com/learn/latex/How_to_Write_a_Thesis_in_LaTeX_(Part_3)%3A_Figures%2C_Subfigures_and_Tables
+
+% Generate a table
+% https://www.tablesgenerator.com/
+
+% Code in python
+\begin{minted}{python}
+import numpy as np
+print("Hello World")
+\end{minted}
+
+% Insert code from a file
+\inputminted{python}{Code/a.py}
+
+% Insert certain lines of code from a file
+\inputminted[firstline=1, lastline=2]{python}{Code/a.py}
+
+% https://www.overleaf.com/learn/latex/Code_Highlighting_with_minted
+
+%How to use monokai theme, in config.tex
+\usemintedstyle{monokai}
+\definecolor{bg}{HTML}{282828}
+\setminted{bgcolor=bg}
+
+% href
+\href{https://example.com}{\textt{aquí}}.
