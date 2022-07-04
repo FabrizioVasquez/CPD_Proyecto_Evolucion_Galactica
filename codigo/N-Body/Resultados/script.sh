@@ -1,7 +1,7 @@
 #!/bin/bash
 read -p "Introduce la variable (gflops,fuerza,comunicacion,total): " mi_variable
 static_columns=('Real Speed = ' 'force: ' 'tot  : ' 'comm : ')
-variables=("speedup" "fuerza" "total" "comunicacion")
+variables=("gflops" "fuerza" "total" "comunicacion")
 
 for N in 5 8 10 16 32 64
 do
