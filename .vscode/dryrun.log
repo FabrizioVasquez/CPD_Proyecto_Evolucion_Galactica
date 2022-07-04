@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/fabriziovasquez/Downloads/CPD/proyecto'
+make: Leaving directory `/Users/fabriziovasquez/Downloads/CPD/proyecto'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
